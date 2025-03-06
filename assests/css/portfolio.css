@@ -1,0 +1,139 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(#1e3c72, #2a5298,rgb(8, 8, 148));
+    color: white;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    color: #f39c12;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: #f39c12;
+    color: #1e3c72;
+    border-radius: 5px;
+}
+
+/* Home Section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Profile Image */
+.profile-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Content Styling */
+.content {
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h1 span {
+    color: #f39c12;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #f39c12;
+}
+
+/* Social Icons */
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #f39c12;
+}
+
+/* Hire Me Button */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #f39c12;
+    color: #f6f8fc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #f39c12;
+}
